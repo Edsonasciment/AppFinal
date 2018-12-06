@@ -16,7 +16,6 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="89 986305893"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/displayNumero"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,8 +36,10 @@
         android:text="C"
         app:layout_constraintBottom_toTopOf="@+id/displayNumero"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.394"
         app:layout_constraintStart_toEndOf="@+id/text_Numero"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <LinearLayout
         android:id="@+id/displayNumero"
